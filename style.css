@@ -1,0 +1,99 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+}
+
+
+#app {
+  background-color: #ffffff;
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+#app-title {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+#balance-box {
+  margin-bottom: 20px;
+}
+
+#balance-label {
+  font-weight: bold;
+  color: #555555;
+}
+
+#balance {
+  font-size: 1.5em;
+  color: #2e7d32; /* green tone */
+}
+
+/* Entry box */
+#entry-box {
+  margin-bottom: 20px;
+}
+
+#amount-label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555555;
+}
+
+#amount {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+/* Buttons */
+#button-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.action {
+  flex: 1;
+  padding: 10px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.credit {
+  background-color: #4caf50;
+  color: white;
+}
+
+.debit {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Message slot */
+#message {
+  color: #d32f2f;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Note */
+#note {
+  font-size: 0.8em;
+  color: #777777;
+  text-align: center;
+}
